@@ -1,0 +1,50 @@
+:root {
+  --red: #e50914;
+  --black: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--black);
+  font-family: 'Roboto', sans-serif;
+}
+
+header  .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0.8rem; 
+}
+
+header  .logo{
+  color: var(--red);
+  font-size: 2.5rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 0.5rem;
+  transition: 0.2s;
+}
+
+header nav a:hover {
+  color:#fff;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
