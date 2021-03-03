@@ -19,9 +19,9 @@ body {
 
 header  .container{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header  .logo{
@@ -112,15 +112,6 @@ button {
   display: block;
 }
 
-/* media queries */
-@media (max-width: 1080px) {
-  html {
-    font-size: 93.75%;
-  }
-}
-
-@media (max-width: 720px) {
-  html {
-    font-size: 87.5%;
-  }
+.carrosel-filmes {
+  margin-top: 0.8rem;
 }
